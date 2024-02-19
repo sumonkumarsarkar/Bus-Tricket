@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen">
+    <header class="w-11/12 mx-auto">
+        <nav>
+
+            <div class="navbar bg-base-300">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Hone</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">E-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Hone</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn">Bus <span><img src="./images/bus-icon.png" alt=""></span></a>
+                  
+                </div>
+              </div>
+        </nav>
+    </header>
+                   <!-- banner section start  -->
+    <section class="w-11/12 mx-auto">
+        <div class="relative col-span-2">
+        <div>
+            <div><img src="./images/banner.png" alt=""></div>
+         </div>
+         <div class=" absolute bottom-5 lg:bottom-1/4 left-1/4 text-white text-center">
+            <h2 class="py-2 font-extrabold text-5xl text-white">End-to-End Travel with</h2>
+            <h2 class="font-extrabold text-2xl text-green-600">Golden Paribahan</h2>
+            <p class="py-2 m-2">Golden Line (GL) is the sister concern of Karim Group, passenger transportation company.</p>
+            <button  onclick="newPage()" class="py-2 px-4 lg:py-2 Lg:px-4 rounded-lg bg-green-600" type="button">Buy Tickets</button>
+         </div>
+    </div>
+    </section>
+
+     <!-- banner section end  -->
+
+
+     <!-- best offer  section start  -->
+
+
+     <section class="w-11/12 mx-auto my-10">
+
+        <div>
+            <h2 class="font-extrabold text-2xl text-center my-8">Best offers for you</h2>
+        </div>
+
+
+        <div class="flex flex-col lg:flex-row gap-8 justify-center">
+        <!-- 15% offer start  -->
+        <div class="flex">
+            <div class="bg-yellow-500 rounded-s-lg w-[300px] h-[200px]">
+                <h2 class="font-extrabold text-2xl text-center mt-8 mx-10">15% OFF</h2>
+                <h4 class="font-extrabold text-xl text-center">on your next purchase</h4>
+                <h5 class="font-extrabold  text-center">use by January 2024</h5>
+            </div>
+            <div class="bg-yellow-500 h-[200px]">
+                <img src="./images/cupon-devider.png" alt="">
+            </div>
+            <div class="bg-yellow-500 justify-center items-center rounded-e-lg w-[150px] h-[200px]">
+                <h2 class="font-extrabold text-2xl text-center mt-8 mx-10">NEW15</h2>
+                <h5 class="font-extrabold  text-center">Coupon Code</h5>
+            </div>
+        </div>
+
+
+        <!-- 15% offer end -->
+
+
+        <!-- 20% offer start -->
+
+<div class="flex">
+            <div class="bg-[#F78C9C] rounded-s-lg w-[300px] h-[200px]">
+                <h2 class="font-extrabold text-2xl text-center mt-8">20% OFF</h2>
+                <h4 class="font-extrabold text-xl text-center">on your next purchase</h4>
+                <h5 class="font-extrabold  text-center">use by January 2024</h5>
+            </div>
+            <div class="bg-[#F78C9C]  h-[200px]">
+                <img src="./images/cupon-devider.png" alt="">
+            </div>
+            <div class="bg-[#F78C9C] rounded-e-lg w-[250px] h-[200px]">
+                <h2 class="font-extrabold text-2xl text-center mt-8 mx-10">Couple 20</h2>
+                <h5 class="font-extrabold  text-center">Coupon Code</h5>
+            </div>
+        </div>
+
+        <!-- 20% offer end -->
+
+        
+
+    </div>
+<div class="flex justify-center my-10">
+    <button class="py-2 px-4 lg:py-2 Lg:px-4 rounded-lg bg-white border border-2 border-green-600" type="button">Buy Tickets</button>
+</div>
+
+    
+
+
+     </section>
+
+
+     <!-- best offer  section end  -->
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
