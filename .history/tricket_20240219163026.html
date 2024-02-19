@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<style>
+  #tricket-update>div{
+    display:flex;
+    
+  }
+  #tricket-update>div h2{
+    
+    margin-left:40px;
+    padding-right:40px;
+
+  }
+
+
+</style>
+
+
+</head>
+<body >
+  <div  class="w-11/12 mx-auto my-10">
+    <div class="text-center">
+        <h2 class="font-extrabold text-2xl">Golden Paribahan</h2>
+        <p class="my-4 mx-10">Golden Line Paribahan is apparently a family owned transport company specializing in transportation of passenger bus services since 1990</p>
+        
+
+     </div>
+ 
+      <div class="flex w-full mx-auto  bg-slate-100 shadow-xl ">
+
+        <div class="lg:w-[800px] w-[300px] ">
+            <!-- head start  -->
+
+            <div class="flex justify-between my-6">
+              <!-- left  -->
+           <div class="flex justify-start items-center ms-6">
+            <div>
+                <img src="./images/bus-icon.png" alt="">
+            </div>
+            <div>
+                <h3>Golden Paribahan</h3>
+                <p>Coach-009-WEB ! AC_Business</p>
+            </div>
+           </div>
+           <!-- right  -->
+           <div class="flex justify-start items-center  bg-green-100 rounded-md">
+            <div>
+                <img src="./images/seat-green-filled.png" alt="">
+            </div>
+            <div>
+                <h3><span id="set-count">40</span> Seat left</h3>
+            </div>
+           </div>
+
+            </div>
+
+            <!-- head end  -->
+
+
+            <!-- head in start  -->
+
+
+            <div class=":w-full bg-slate-300 shadow-md mx-2 rounded-md mt-8">
+               <div class="flex justify-between mx-4 my-4">
+                <p class="mt-4">Route</p>
+                <p class="mt-4">Dhaka-Sylhet</p>
+               </div>
+               <hr class="border-dotted border-gray-500 border-1  w-[200px]  lg:w-[400px] mx-auto ">
+               <div class="flex justify-between mx-4 my-4">
+                <p>Departure Time</p>
+                <p>9:00 PM</p>
+               </div>
+               <hr class="border-dotted border-gray-500 border-1 w-[200px]  lg:w-[400px] mx-auto">
+
+        <div class="flex justify-around my-8" >
+          <div class="bg-slate-100 p-2 shadow-lg rounded-md mb-4">
+            <p>Boarding Point-Laxmipur</p>
+          </div>
+          <div class="bg-slate-100 p-2 shadow-lg rounded-md mb-4">
+            <p>Dropping Point-Bogura</p>
+          </div>
+          <div class="bg-slate-100 p-2 shadow-lg rounded-md mb-4">
+            <p>Est.Time-11 Hour</p>
+          </div>
+        </div>
+     </div>
+
+         </div>
+    
+         <div>
+             <img src="./images/info-devider.png" alt="">
+         </div>
+    
+         <div class="flex flex-col justify-center items-center">
+            <img src="./images/fare.png" alt="">
+            <h2 class="font-extrabold text-xl"> <span>550</span>TK</h2>
+            <h3 class="font-extrabold text-xl">per Seat</h3>
+         </div>
+         </div>
+
+
+<!-- select part start -->
+<section class="w-full mx-auto my-10 bg-slate-100">
+  <div class="flex ">
+    <!-- available seat start  -->
+
+    <div class="flex lg:flex-col">
+      <div class="text-center lg:w-[500px]">
+        <h3>Select Your Seat </h3>
+        <hr class="border-dotted border-gray-500 border-1">
+      </div>
+
+
+     <div class="flex justify-between lg:w-[500px]">
+      <div class="flex items-center">
+        <img src="./images/seat-green.png" alt="">
+        <h3>Available</h3>
+      </div>
+      <div class="flex items-center">
+        <img src="./images/seat-green-filled.png" alt="">
+        <h3>Selected</h3>
+      </div>
+     </div>
+     <hr class="border-dotted border-gray-500 border-1">
+
+     
+
+     <!-- seat plan start  -->
+<div class="flex justify-end">
+  <i class="fa-solid fa-car-rear m-8"></i>
+</div>
+
+<div class="flex justify-around">
+
+  
+    <div class="grid lg:grid-cols-1">
+     
+      <div class="box">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+      <div class="box">D</div>
+      <div class="box">E</div>
+      <div class="box">F</div>
+      <div class="box">G</div>
+      <div class="box">H</div>
+      <div class="box">H</div>
+      <div class="box">J</div>
+  </div>
+
+  
+
+    <div class="grid grid-cols-2 gap-3">
+      
+     <button class="number bg-slate-400 px-4 py-2 " type="button">A1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">A2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">B1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">B2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">C1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">C2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">D1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">D2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">E1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">E2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">F1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">F2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">G1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">G2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">H1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">H2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">I1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">I2</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">J1</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">J2</button>
+    </div>
+    
+
+
+    <div class="grid grid-cols-2 gap-4">
+      
+     <button class="number bg-slate-400 px-4 py-2" type="button">A3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">A4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">B3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">B4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">C3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">C4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">D3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">D4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">E3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">E4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">F3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">F4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">G3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">G4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">H3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">H4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">I3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">I4</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">J3</button>
+     <button class="number bg-slate-400 px-4 py-2" type="button">J4</button>
+    </div>
+    
+</div>
+
+
+
+
+
+
+     <!-- seat plan end  -->
+
+
+
+
+
+
+    </div>
+    
+    <!-- available seat end  -->
+    
+    <!-- divider line start -->
+    <div >
+      <img class="my-4 px-4 py-2 rounded-lg" src="./images/info-devider.png" alt="">
+    </div>
+    <!-- divider line end -->
+    
+    <!-- payment part start  -->
+
+
+    
+    <div class="flex lg:flex-col lg:w-[500px]">
+
+     
+        <h3 class="text-center">Select Your Payment</h3>
+      
+      <hr>
+
+
+    <div class="bg-slate-200 shadow-lg rounded-md mt-6">
+      <div class="mt-6 flex justify-evenly">
+        <h3>seat <span id="bocking-seat">0</span></h3>
+        <h3>class</h3>
+        <h3>price</h3>
+      </div>
+      <hr class="border-2 border-gray-400 mx-6">
+
+      <div id="tricket-update" class="my-2">
+        
+        
+      </div>
+      <hr class="border-2 border-gray-400 mx-6">
+      <div class="my-2 flex justify-around">
+        <h3>Total Price</h3>
+      <h3>BDT:<span id="total-price">0</span></h3>
+      </div>
+      <div id="total-discount" class="my-2 flex justify-around">
+        
+      </div>
+      <div class="my-2 flex mx-6">
+        <input id="input-value" class="w-[300px] bg-slate-50 " type="text" placeholder="Enter your coupon">
+        <button  id="apply-button" class="bg-green-500 px-8 py-2" type="button">Apply</button>  
+      </div>
+
+      <div class="mt-6 flex justify-around mb-6">
+        <h3>Grand Total</h3>
+        <h3>BDT:<span id="grand-total">0</span></h3>
+      </div>
+    </div>
+
+
+       <div>
+        <form >
+          <label for="Name">Passenger Name:</label> <br>
+          <input class="w-full bg-slate-50 my-4 px-4 py-2 rounded-lg" type="text" placeholder="Enter your Name" required>
+          <label for="Name">Phone Number:</label> <br>
+          <input id="phone-input" class="w-full bg-slate-50 my-4 px-4 py-2 rounded-lg" type="text" placeholder="Enter your Phone Number" required>
+          <label for="Name">Email Id:</label> <br>
+          <input class="w-full bg-slate-50  my-4 px-4 py-2 rounded-lg" type="mail" placeholder="Enter your Email">
+        </form>
+        <!-- <button  id="apply-button" class="bg-green-500 px-8 py-2 w-full rounded-md" type="button">Apply</button>  -->
+
+        
+<!-- Open the modal using ID.showModal() method -->
+<button id="button-next" class="btn bg-green-500 w-full" onclick="my_modal_5.showModal()" disabled>Next</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  
+    <div class="min-h-screen flex justify-center items-center">
+    <div class="flex flex-col justify-center items-center w-[600px] h-[400px] shadow-xl border border-red-300 bg-white">
+     
+     <img src="./images/success.png" alt="">
+     <h2 class="text-green-500">SUCCESS</h2>
+     <div>
+      <h3>Your booking confirmed.</p>
+     <button type="button" class="text-white bg-green-600 rounded-md px-4 py-2">Continue</button>
+     </div>
+ 
+ </div>
+     </div>
+
+</dialog>
+<!-- Open the modal using ID.showModal() method -->
+
+    
+        <div class="flex justify-around my-4">
+          <p><a href="#">Terms and Conditions</a></p>
+          <p><a href="#">Cancellation Policy</a></p>
+
+        </div> 
+
+       </div>
+
+
+  
+    </div>
+    
+
+    </div>
+
+
+    <!-- payment part end  -->
+
+    
+</section>
+
+
+
+
+<!-- select part end -->
+
+
+
+    
+
+    
+<script src="./index.js"></script>
+</body>
+</html>
